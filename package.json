@@ -1,13 +1,23 @@
 {
   "name": "card-deck",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Card Deck module for instantiating a virtual 52 card deck",
+  "main": "./build/index.js",
   "scripts": {
+    "prepublish": "yarn test && tsc",
     "test": "mocha -r 'ts-node/register' 'src/**/*.test.ts' "
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "games",
+    "cards",
+    "deck",
+    "card deck",
+    "card games",
+    "card game"
+  ],
+  "repository": "https://github.com/mttchpmn/card-deck.git",
+  "author": "Matt Chapman",
   "license": "ISC",
   "dependencies": {
     "@types/chai": "^4.2.14",
