@@ -1,10 +1,10 @@
 {
-  "name": "card-deck",
+  "name": "gamblor",
   "version": "1.0.0",
   "description": "Card Deck module for instantiating a virtual 52 card deck",
   "main": "./build/index.js",
   "scripts": {
-    "prepublish": "yarn test && tsc",
+    "prepare": "yarn test && tsc",
     "test": "mocha -r 'ts-node/register' 'src/**/*.test.ts' "
   },
   "keywords": [
