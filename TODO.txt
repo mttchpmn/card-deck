@@ -1,4 +1,21 @@
 TODO
 
-- Handle Jokers
 - Deck creation options
+  - FaceCard value
+  - Joker value
+  - Deck size
+  - Jokers enabled
+
+- Class inheritance
+  - Card
+    - PipCard
+    - FaceCard
+    - Joker
+  - Deck
+    - StandardDeck
+    - PokerDeck
+      - No jokers
+    - BlackjackDeck
+      - Extra cards
+
+- Load saved deck by passing in card configuration (?)
